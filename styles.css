@@ -1,0 +1,65 @@
+body {
+  font-family:cursive;
+  background: radial-gradient(circle, lightcyan, lightblue , lightcyan);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color:black;
+}
+
+#display {
+  width: 85%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 0.8px solid black;
+  border-radius: 40px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+}
+
+button {
+  padding: 22px;
+  font-size: 15px;
+  border:  px black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.operator {
+  background-color:darkslategray;
+  color:white;
+}
+
+.number {
+  background-color: beige;
+  color:black;
+}
+.scientific
+{
+  grid-template-columns: repeat(6, 1fr);
+}
+#clear {
+  grid-column: span 2;
+  background-color: darkred;
+}
+
+#calculate {
+  grid-column: span 4;
+  background-color: lightgreen;
+}
